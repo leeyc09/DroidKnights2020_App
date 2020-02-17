@@ -1,4 +1,4 @@
-package com.droidknights.app2020.ui.info
+package com.droidknights.app2020.ui.eventinfo
 
 import androidx.lifecycle.ViewModel
 import com.droidknights.app2020.di.annotation.FragmentScoped
@@ -9,16 +9,16 @@ import dagger.android.ContributesAndroidInjector
 import dagger.multibindings.IntoMap
 
 /**
- * Created by jiyoung on 04/12/2019
+ * Created by jiyoung on 25/12/2019
  */
 @Module
-internal abstract class InfoModule {
+internal abstract class EventInfoModule {
     @FragmentScoped
     @ContributesAndroidInjector
-    internal abstract fun contributeInfoFragment(): InfoFragment
+    internal abstract fun contributeSponsorFragment(): EventInfoFragment
 
     @Binds
     @IntoMap
-    @ViewModelKey(InfoViewModel::class)
-    abstract fun bindInfoFragmentViewModel(viewModel: InfoViewModel): ViewModel
+    @ViewModelKey(EventInfoViewModel::class)
+    abstract fun bindSponsorFragmentViewModel(viewModel: EventInfoViewModel): ViewModel
 }

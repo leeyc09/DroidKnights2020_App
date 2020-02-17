@@ -3,4 +3,7 @@
 
     <string name="menu_info_title">Info</string>
     <string name="menu_schedule_title">Schedule</string>
+    <string name="event_info">이벤트 정보</string>
+    <string name="session">세션</string>
+    <string name="profile">프로필</string>
 </resources>

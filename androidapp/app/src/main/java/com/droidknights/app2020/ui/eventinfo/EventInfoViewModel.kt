@@ -1,11 +1,11 @@
-package com.droidknights.app2020.ui.sponsor
+package com.droidknights.app2020.ui.eventinfo
 
 import androidx.lifecycle.ViewModel
 import com.droidknights.app2020.R
 import com.droidknights.app2020.ui.data.SponsorData
 import javax.inject.Inject
 
-class SponsorViewModel @Inject constructor() : ViewModel() {
+class EventInfoViewModel @Inject constructor() : ViewModel() {
     val sponsorList = listOf(
         SponsorData("toss", "https://toss.im/", R.drawable.ic_sponsor_toss),
         SponsorData("헤이딜러", "https://dealer.heydealer.com/", R.drawable.ic_sponsor_heydealer),

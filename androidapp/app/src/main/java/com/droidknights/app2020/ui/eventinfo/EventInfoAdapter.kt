@@ -1,4 +1,4 @@
-package com.droidknights.app2020.ui.sponsor
+package com.droidknights.app2020.ui.eventinfo
 
 import androidx.recyclerview.widget.DiffUtil
 import com.droidknights.app2020.R
@@ -8,7 +8,7 @@ import com.droidknights.app2020.ui.data.SponsorData
 /**
  * Created by jiyoung on 03/02/2020
  */
-class SponsorAdapter : DataBindingAdapter<SponsorData>(DiffCallback()) {
+class EventInfoAdapter : DataBindingAdapter<SponsorData>(DiffCallback()) {
     override var itemClickListener: ItemClickListener?
         get() = null
         set(value) {}

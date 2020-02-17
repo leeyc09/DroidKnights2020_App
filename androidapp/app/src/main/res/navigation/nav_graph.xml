@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/infoFragment">
+    app:startDestination="@id/eventInfoFragment">
 
     <fragment
         android:id="@+id/scheduleFragment"
@@ -11,20 +11,10 @@
         android:label="ScheduleFragment"
         tools:layout="@layout/schedule_fragment" />
     <fragment
-        android:id="@+id/infoFragment"
-        android:name="com.droidknights.app2020.ui.info.InfoFragment"
-        android:label="InfoFragment"
-        tools:layout="@layout/info_fragment" />
-    <fragment
         android:id="@+id/mypageFragment"
         android:name="com.droidknights.app2020.ui.mypage.MypageFragment"
         android:label="MypageFragment"
         tools:layout="@layout/mypage_fragment" />
-    <fragment
-        android:id="@+id/sponsorFragment"
-        android:name="com.droidknights.app2020.ui.sponsor.SponsorFragment"
-        android:label="SponsorFragment"
-        tools:layout="@layout/sponsor_fragment" />
     <fragment
         android:id="@+id/sessionDetailFragment"
         android:name="com.droidknights.app2020.ui.schedule.detail.SessionDetailFragment"
@@ -34,4 +24,8 @@
             android:name="sessionId"
             app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/eventInfoFragment"
+        android:name="com.droidknights.app2020.ui.eventinfo.EventInfoFragment"
+        android:label="EventInfoFragment" />
 </navigation>

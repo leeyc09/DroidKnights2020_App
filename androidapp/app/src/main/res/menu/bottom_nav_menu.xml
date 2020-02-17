@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@id/infoFragment"
+        android:id="@id/eventInfoFragment"
         android:icon="@android:drawable/ic_menu_info_details"
-        android:title="Info" />
+        android:title="@string/event_info" />
     <item
         android:id="@id/scheduleFragment"
         android:icon="@android:drawable/ic_menu_agenda"
-        android:title="Session" />
-    <item
-        android:id="@id/sponsorFragment"
-        android:icon="@drawable/ic_group_add_white_24dp"
-        android:title="Sponsored" />
+        android:title="@string/session" />
     <item
         android:id="@id/mypageFragment"
         android:icon="@drawable/ic_person_white_24dp"
-        android:title="Mypage" />
+        android:title="@string/profile" />
 
 </menu>
